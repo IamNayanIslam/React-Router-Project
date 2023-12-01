@@ -58,6 +58,15 @@ footer .footer-top ul li:hover {
   color: #d1cece;
 }
 
+footer .footer-top ul .footLink {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .footer-top ul .footLink:hover {
+  color: #d1cece;
+}
+
 footer .footer-top .cont {
   width: 350px;
 }

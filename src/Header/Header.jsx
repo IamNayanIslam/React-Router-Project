@@ -5,18 +5,28 @@ export default function Header() {
     <div className="wrap">
       <header>
         <div className="logo">
-          <h1>nayan</h1>
+          <h1>
+            <Link to="/" className="nayan">
+              nayan
+            </Link>
+          </h1>
         </div>
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" className="link">
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/contacts">Contacts</Link>
+              <Link to="/contacts" className="link">
+                Contacts
+              </Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about" className="link">
+                About
+              </Link>
             </li>
           </ul>
         </nav>

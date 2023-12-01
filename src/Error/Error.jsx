@@ -6,7 +6,9 @@ export default function Error() {
       <h1>PAGE NOT FOUND!</h1>
       <img src="https://i.postimg.cc/rw7yDgjy/404-error.png" alt="" />
       <button>
-        <Link to="/">Return Home</Link>
+        <Link to="/" className="homeLink">
+          Return Home
+        </Link>
       </button>
     </div>
   );

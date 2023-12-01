@@ -31,6 +31,11 @@ header .logo h1 {
   cursor: pointer;
 }
 
+header .logo .nayan {
+  text-decoration: none;
+  color: #1a1a32;
+}
+
 header nav ul {
   list-style: none;
   text-transform: uppercase;
@@ -47,6 +52,18 @@ header nav ul li {
 }
 
 header nav ul li:hover {
+  color: #252580;
+}
+
+header nav ul li .link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #1a1a32;
+  font-weight: 700;
+  transition: 0.5s ease all;
+}
+
+header nav ul li .link:hover {
   color: #252580;
 }
 

@@ -47,6 +47,7 @@ main button {
 }
 
 main button:hover {
+  text-decoration: none;
   background: #1a1a32;
   color: #fff;
 }

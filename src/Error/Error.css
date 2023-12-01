@@ -26,6 +26,11 @@ button {
   font-size: 22px;
 }
 
+.homeLink {
+  text-decoration: none;
+  color: #1a1a32;
+}
+
 button:hover {
   text-decoration: underline;
 }
