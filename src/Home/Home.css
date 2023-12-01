@@ -1,0 +1,52 @@
+.home-wrap {
+  width: 100%;
+  min-height: 100vh;
+  background: #f1f1f3;
+}
+
+main {
+  width: 90%;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: #f1f1f3;
+  padding-top: 40px;
+}
+
+main h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main .content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+main .content img {
+  display: block;
+  width: 400px;
+  height: 300px;
+}
+
+main .content p {
+  text-align: justify;
+  line-height: 1.5rem;
+  padding: 10px;
+}
+
+main button {
+  background: #fff;
+  color: #1a1a32;
+  font-weight: 600;
+  border: 1px solid #1a1a32;
+  padding: 12px 25px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5px ease all;
+}
+
+main button:hover {
+  background: #1a1a32;
+  color: #fff;
+}

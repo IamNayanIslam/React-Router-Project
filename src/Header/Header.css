@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 100%;
+  min-height: 120px;
+  border-bottom: 2px solid #c2c2c2;
+  /* background: red; */
+}
+
+header {
+  width: 90%;
+  padding: 0 10px;
+  margin: 0 auto;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+header .logo h1 {
+  text-transform: uppercase;
+  color: #1a1a32;
+  font-family: "Pacifico", cursive;
+  cursor: pointer;
+}
+
+header nav ul {
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+header nav ul li {
+  cursor: pointer;
+  color: #1a1a32;
+  font-weight: 700;
+  transition: 0.5s ease all;
+}
+
+header nav ul li:hover {
+  color: #252580;
+}
+
+header div ul {
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px;
+  border: 1px solid #1a1a32;
+}
+
+header div ul li {
+  cursor: pointer;
+}
+
+header div ul li.log,
+header div ul li.sign {
+  padding: 10px 25px;
+
+  transition: 0.5s ease all;
+}
+
+header div ul li.sign {
+  background: #1a1a32;
+  color: #fff;
+  font-weight: 600;
+}
+
+header div ul li.sign:hover {
+  background: #252580;
+  color: #fff;
+  font-weight: 600;
+}
+
+header div ul li.log {
+  background: #fff;
+  color: #1a1a32;
+  font-weight: 600;
+  border-right: 1px solid #1a1a32;
+}
+
+header div ul li.log:hover {
+  background: #1a1a32;
+  color: #fff;
+  font-weight: 600;
+  border-right: 1px solid #fff;
+}
